@@ -25,7 +25,7 @@ function submitForm() {
     let password = document.getElementById("password").value.trim();
 
     if (name === "" || email === "" || password === "") {
-        alert("Please fill all fields!");
+        alert("enter your details !");
         return; // Yahan function ruk jayega
     }
 
