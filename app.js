@@ -7,13 +7,8 @@ lottie.loadAnimation({
 });
 
 function submitForm() {
-    // Form hide
     document.getElementById("form-box").style.display = "none";
-
-    // Success box show
     document.getElementById("success-box").style.display = "block";
-
-    // Load success animation
     lottie.loadAnimation({
         container: document.getElementById("success-animation"),
         renderer: "svg",
